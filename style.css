@@ -1,0 +1,94 @@
+:root{
+    --petch:#bd376a;
+    --pink:#e354bf;
+    --black:#0d0d0d;
+}
+body{
+    box-sizing: border-box;
+    margin: auto 0;padding: 0;
+    height: 100vh;
+    background: var(--black);
+    flex-direction: column;
+}
+#wrapper{
+    height: 70vh;
+    width: 55vh;
+    background: transparent;
+    border: 1px solid var(--petch);
+    border-radius: 3%;
+    outline: none;
+    box-shadow: 1px 2px 9px var(--petch);
+}
+h1{
+    text-align: center;
+    color: var(--petch);
+    padding: 2px 4px;
+}
+.input-box{
+    width: 100%;
+    height: 12vh;
+}
+.input-box input[type="text"]{
+    width: 100%;
+    height: 9vh;
+    text-align: end;
+    padding: 0 8px;
+    color: hsl(0deg 0% 100% / 50%);
+    font-size: 1.5rem;
+    background: transparent;
+    border: 1px solid var(--black);
+    border-bottom: 1px solid var(--petch);
+    border-radius:10px;
+    outline: none;
+    background-image: url(./Get\ Lost\ In\ GIFs.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus{
+    border: none;
+}
+.number-box{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* background: #e354bf; */
+}
+.number-box button{
+    width: 23.2%;
+    height: 9vh;
+    background: transparent;
+    color: var(--petch);
+    border: 1px solid var(--petch);
+    outline: none;
+    margin-right: 0.3rem;
+    margin-bottom:0.3rem ;
+    border-radius: 3%;
+}
+.number-box .oprants{
+    font-size: 19px;
+}
+.number-box .oprants:hover{
+    background: rgb(32, 32, 32);
+}
+.number-box .maths{
+    font-size: 24px;
+    color: rgb(167 154 159 / 97%);
+}
+.number-box #equal{
+    width: 48%;
+}
+.number-box .oprators{
+    background: var(--petch);
+    color: whitesmoke;
+    transition: all .3s ease-in;
+}
+.number-box .oprators:hover{
+    background: transparent;
+    color: var(--petch);
+}
