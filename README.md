@@ -8,5 +8,5 @@ number calculate
 - Bootstap
 - MD Bootstap
 - Font Awesome\
-**I learnt about looping\**
+**I learnt about looping**
 *you can check out [Calculator](https://Jagrati1213.github.io/calculater)*
