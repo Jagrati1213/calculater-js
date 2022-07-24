@@ -9,4 +9,4 @@ number calculate
 - MD Bootstap
 - Font Awesome\
 **I learnt about looping**
-*you can check out [Calculator](https://Jagrati1213.github.io/calculater)*
+*you can check out [Calculator]( https://jagrati1213.github.io/calculater-js)*
